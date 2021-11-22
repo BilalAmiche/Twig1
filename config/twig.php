@@ -10,3 +10,6 @@ $twig = new \Twig\Environment($loader, [
     // ...
 ]);
 $twig->addExtension(new \Twig\Extension\DebugExtension());
+$contactEmail = 'Bilal.amiche.dev@gmail.com';
+
+$twig->addGlobal('contactEmail', $contactEmail);
